@@ -1,6 +1,6 @@
-h1 {
+.class="main-content__title" {
   font-family:"Roboto";
 }
-p {
+.class="main-content__subtitle" {
   font-family: cursive;
 }
