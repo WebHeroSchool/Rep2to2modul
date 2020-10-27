@@ -1,6 +1,29 @@
-h1 {
+.main-content__title {
   font-family:"Roboto";
 }
-p {
+.main-content__subtitle {
   font-family: cursive;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  border: 1px dashed red;
+}
+.header {
+  display:flex;
+  justify-content:space-between;
+}
+.site {
+  padding: 40px 0;
+}
+.menu {
+  display:flex;
+  align-items: center;
+}
+.menu__item {
+  padding: 0 13px;
+}
+.menu__item:last-child {
+  padding-right: 0;
 }
