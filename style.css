@@ -11,15 +11,21 @@
   border: 1px dashed red;
 }
 .header {
+  padding: 40px 0;
   display:flex;
   justify-content:space-between;
 }
-.site {
-  padding: 40px 0;
+.logo {
+  //padding: 40px 0;
+  //font: bold 24px/31px pt_serif,arial,helvetica,sans-serif;
+  width:189px;
+  height: 35px;
+  background: url('img/site.svg');
 }
 .menu {
   display:flex;
   align-items: center;
+  font-family:"Roboto"
 }
 .menu__item {
   padding: 0 13px;
