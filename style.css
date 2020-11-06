@@ -8,7 +8,7 @@
 .wrapper {
   margin: 0 auto;
   width: 80%;
-  border: 1px dashed red;
+
 }
 .header {
   padding: 40px 0;
@@ -28,9 +28,16 @@
 
 }
 .menu__item {
+  /*font: "Roboto"*/
+  font-family: "Roboto";
+  Font Style: Medium
+/*font-style: normal;*/
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+/* font: 500 18px/21px Roboto, arial, helvetica, sans-serif;*/
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
