@@ -1,8 +1,54 @@
-.main-content__title {
-  font-family:"Roboto";
+.main__title {
+  margin: 0 0 40px 0;
+  font-family: PT Serif;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 65px;
+
+align-items: center;
+width: 434px;
+height: 195px;
+left: calc(50% - 434px/2 - 249px);
+top: 212px;
 }
-.main-content__subtitle {
-  font-family: cursive;
+
+.main__subtitle {
+  margin: 0 0 41px 0;
+width: 367px;
+height: 43px;
+left: calc(50% - 367px/2 - 282.5px);
+top: 447px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+}
+
+.main__button{
+  display: inline-block;
+  font: 14px/16px "Roboto",arial,helvetica,sans-serif;
+    color: #FFF;
+    background: #0056EC;
+    padding: 14px 16px;
+    text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5;
+  }
+
+  .main__button:hover{
+    opacity: .5;
+  }
+
+.main{
+  padding: 0 63% 100px 0;
+  background:no-repeat top right url(img/mainimg.svg);
+}
+
+.main__title-text_highlight{
+  background: #ECF3FF;
 }
 
 .wrapper {
@@ -12,9 +58,11 @@
 }
 .header {
   padding: 40px 0;
+  margin-bottom: 100px;
   display:flex;
   justify-content:space-between;
 }
+
 .logo {
   //padding: 40px 0;
   //font: bold 24px/31px pt_serif,arial,helvetica,sans-serif;
@@ -22,11 +70,12 @@
   height: 35px;
   background: url('img/site.svg');
 }
+
 .menu {
   display:flex;
   align-items: center;
-
 }
+
 .menu__item {
   font-family: "Roboto";
   Font-style: normal;
@@ -37,15 +86,15 @@ font-size: 14px;
 line-height: 16px;
   position: relative;
   margin-right: 26px;
-/* font: 500 18px/21px Roboto, arial, helvetica, sans-serif;*/
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
-
 }
+
 .menu__item:last-child {
   padding-right: 0;
 }
+
 .menu__item_active::after{
   position: absolute;
   display: block;
@@ -55,7 +104,7 @@ line-height: 16px;
   height: 3px;
   background: #0056EC;
   opacity: 1;
-
+}
   .menu__item:after{
   position: absolute;
   display: block;
@@ -68,10 +117,10 @@ line-height: 16px;
   transition: opacity .5s;
   }
 
-}
 .menu__item:hover{
   opacity: .5;
 }
+
 .menu__item:hover:after{
   position: absolute;
   display: block;
