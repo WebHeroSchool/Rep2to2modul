@@ -28,10 +28,10 @@
 
 }
 .menu__item {
-  /*font: "Roboto"*/
   font-family: "Roboto";
-  Font Style: Medium
-/*font-style: normal;*/
+  Font-style: normal;
+  Font-weight: 500;
+  height: 17px;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -73,7 +73,7 @@ line-height: 16px;
   opacity: .5;
 }
 .menu__item:hover:after{
-  position: absolut;
+  position: absolute;
   display: block;
   content: "";
   left:0;
