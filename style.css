@@ -5,7 +5,6 @@ font-style: normal;
 font-weight: bold;
 font-size: 50px;
 line-height: 65px;
-
 align-items: center;
 width: 434px;
 height: 195px;
@@ -19,7 +18,6 @@ width: 367px;
 height: 43px;
 left: calc(50% - 367px/2 - 282.5px);
 top: 447px;
-
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -54,8 +52,8 @@ line-height: 21px;
 .wrapper {
   margin: 0 auto;
   width: 80%;
-
 }
+
 .header {
   padding: 40px 0;
   margin-bottom: 100px;
@@ -77,6 +75,7 @@ line-height: 21px;
 }
 
 .menu__item {
+  position: relative;
   font-family: "Roboto";
   Font-style: normal;
   Font-weight: 500;
@@ -84,7 +83,6 @@ line-height: 21px;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
-  position: relative;
   margin-right: 26px;
   color: #000;
   text-decoration: none;
@@ -92,29 +90,30 @@ line-height: 16px;
 }
 
 .menu__item:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
-.menu__item_active::after{
-  position: absolute;
-  display: block;
-  content: "";
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background: #0056EC;
-  opacity: 1;
-}
   .menu__item:after{
-  position: absolute;
-  display: block;
-  content: "";
+position: absolute;
+    display: block;
+  content: '';
   left: 0;
   width: 100%;
   height: 3px;
   background: #0056EC;
   opacity: 0;
   transition: opacity .5s;
+  }
+
+  .menu__item_active::after {
+    position: absolute;
+    display: block;
+    content: ''
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #0056EC;
+    opacity: 1;
   }
 
 .menu__item:hover{
