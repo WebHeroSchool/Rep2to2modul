@@ -192,27 +192,90 @@ width: 93%;
 
 
 
-@media screen (min-width:1365px) and (max-width:1919px){
+@media screen and (min-width:1366px) and (max-width:1919px){
 
 .wrapper{
   width: 69%;
 }
 
   .header{
-    margin-bottom: 72px;
+    margin-bottom: 88px;
+    padding: 32px 0;
 
   }
   .menu{
-    margin-top: 6px;
+    margin-top: 5px;
+    margin-right: 5px;
   }
   .main{
-    margin-right: 151px;
+    margin-right: 1px;
+    padding: 17px 63% 100px 0;
 }
 }
 
 
-@media (min-width: 1920px){
+@media screen and (min-width: 1920px){
 .wrapper{
-  width: 88%;
+  width: 80%;
 }
+
+.header{
+  padding: 31px 0;
+  margin-bottom: 137px;
+}
+
+.menu{
+  padding-right: 3px;
+}
+
+.menu__item{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+}
+
+.main{
+  background-size: 770px 657px;
+  padding: 76px 58% 100px 0;
+}
+
+.main__title{
+
+  width: 567px;
+  height: 255px;
+  left: calc(50% - 567px/2 - 481.5px);
+  top: 318px;
+
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 66px;
+  line-height: 87px;
+
+  align-items: center;
+}
+.main__subtitle{
+
+width: 455px;
+height: 52px;
+left: calc(50% - 455px/2 - 537.5px);
+top: 613px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+}
+.main__button{
+
+width: 237px;
+height: 29px;
+left: 196px;
+top: 706px;
+font: 19px/29px "Roboto",arial,helvetica,sans-serif;
+}
+
 }
