@@ -192,14 +192,13 @@ width: 93%;
 
 
 
-@media screen (min-width:1366px) and (max-width:1091px){
+@media screen (min-width:1365px) and (max-width:1919px){
 
 .wrapper{
   width: 69%;
 }
 
   .header{
-
     margin-bottom: 72px;
 
   }
@@ -209,8 +208,11 @@ width: 93%;
   .main{
     margin-right: 151px;
 }
+}
 
 
-@media (min-width: 1092px){
-
+@media (min-width: 1920px){
+.wrapper{
+  width: 88%;
+}
 }
