@@ -1,6 +1,6 @@
 .main__title {
   margin: 0 0 40px 0;
-  font-family: PT Serif;
+  font-family: "PT-Serif";
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
@@ -18,7 +18,7 @@
   height: 43px;
   left: calc(50% - 367px/2 - 282.5px);
   top: 447px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -97,7 +97,6 @@
   Font-style: normal;
   Font-weight: 500;
   height: 17px;
-  font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   margin-right: 26px;
