@@ -303,7 +303,7 @@
   .menu__item_burger_active::after {
     position: absolute;
     display: block;
-    content: ''
+    content: '';
     left: 0;
     width: 100%;
     height: 3px;
