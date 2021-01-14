@@ -1,6 +1,6 @@
 .main__title {
   margin: 0 0 40px 0;
-  font-family: PT-Serif;
+  font-family: "PT Serif";
   font-style: normal;
   font-weight: bold;
   font-size: 50px;
@@ -33,7 +33,7 @@
   padding: 14px 16px;
   text-decoration: none;
   border-radius: 4px;
-  transition: opacity .5;
+  transition: opacity .5s;
   cursor: pointer;
   animation: animate_pulse 2s infinite;
 }
